@@ -14,7 +14,7 @@ gewinnerzahl = max(spieler1, spieler2)
 if gewinnerzahl == 6:
     gewinner_text = "Glückwunsch, Sieg mit einer 6!"
 else: 
-    gewinner_text = "Gewinner: Spieler" + str((spieler1 > spieler2) +1 )
+    gewinner_text = "Gewinner: Spieler" + str((spieler2 > spieler1) +1 )
 
 # Den Gewinner ausgeben
 print("Spieler 1: ", spieler1)
